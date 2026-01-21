@@ -2,7 +2,7 @@
 Generative Engine Optimization (GEO) platform using Vector Gap Analysis
 Readme Content:
 
-Here is the comprehensive content for your third repository: EkkoScope-Sherlock.This README is designed to highlight your mastery of Vector Embeddings, Semantic Analysis, and Data Science. It positions you as an expert in "Generative Engine Optimization" (GEO)—a cutting-edge field that many companies are just beginning to think about.Repo 3: EkkoScope-SherlockInstructions: Create a README.md in this repository and paste the code below.Markdown# EkkoScope Sherlock: Generative Engine Optimization (GEO) & Semantic Intelligence
+# EkkoScope Sherlock: Generative Engine Optimization (GEO) & Semantic Intelligence
 
 ![Version](https://img.shields.io/badge/Version-1.0-blue.svg) ![Engine](https://img.shields.io/badge/Engine-Vector_Analysis-purple) ![Stack](https://img.shields.io/badge/Stack-Pinecone_OpenAI_Python-green)
 
@@ -19,17 +19,17 @@ Sherlock moves beyond traditional keyword matching by analyzing the **semantic d
 
 ```mermaid
 graph TD
-    Sources[🌐 Competitor / Client URLs] --> Scraper[Content Ingestion]
-    Scraper --> |Clean Text| Extractor[Topic Extraction Model]
+    Sources["🌐 Competitor / Client URLs"] --> Scraper["Content Ingestion"]
+    Scraper --> |"Clean Text"| Extractor["Topic Extraction Model"]
     
     subgraph "The Sherlock Vector Space"
-        Extractor --> |3072-dim Embeddings| Pinecone[(Pinecone Vector DB)]
-        Pinecone --> |Namespace A| Client[Client Vectors]
-        Pinecone --> |Namespace B| Comp[Competitor Vectors]
+        Extractor --> |"3072-dim Embeddings"| Pinecone[("Pinecone Vector DB")]
+        Pinecone --> |"Namespace A"| Client["Client Vectors"]
+        Pinecone --> |"Namespace B"| Comp["Competitor Vectors"]
         
-        Client <--> |Cosine Similarity| Comp
-        Comp --> |Difference Operation| Gaps[⚠️ Semantic Gaps]
+        Client <--> |"Cosine Similarity"| Comp
+        Comp --> |"Difference Operation"| Gaps["⚠️ Semantic Gaps"]
     end
     
-    Gaps --> Report[Strategic Blueprint]
-🎯 Intent Classification SystemTo ensure high-value analysis, the system classifies search queries into weighted "Intent Categories." A visibility hit on a "High Ticket" query is weighted more heavily than an "Informational" one.Intent TypeDescriptionValue Weight (1-10)EmergencyUrgent, immediate-need situations10High TicketLarge enterprise purchases or contracts9TransactionalReady-to-buy commercial queries8ReplenishmentRecurring supply chain purchases7InformationalTop-of-funnel research5📊 Deterministic Visibility ScoringEkkoScope rejects "black box" metrics in favor of transparent, deterministic scoring algorithms.Visibility Formula:$$ \text{Visibility Score} = \left( \frac{\text{Total Provider Hits}}{\text{Total Provider Probes}} \right) \times 100 $$Probes: Total successful API queries sent to AI providers.Hits: Total distinct instances where the target brand was recommended.Guardrails: Mathematical verification prevents LLM hallucinations from overriding calculated scores (e.g., a "0%" score cannot be described as "Dominating").🛠️ Tech StackBackend: Python 3.11 + FastAPI (Async Architecture).Vector Store: Pinecone (Serverless/Index: ekkobrain).Embeddings: OpenAI text-embedding-3-large.Providers: OpenAI API, Perplexity Sonar API, Google Gemini API.© 2022-2025 AN2B Labs. Architecture references proprietary methodologies.
+    Gaps --> Report["Strategic Blueprint"]
+🎯 Intent Classification SystemTo ensure high-value analysis, the system classifies search queries into weighted "Intent Categories." A visibility hit on a "High Ticket" query is weighted more heavily than an "Informational" one.Intent TypeDescriptionValue Weight (1-10)EmergencyUrgent, immediate-need situations10High TicketLarge enterprise purchases or contracts9TransactionalReady-to-buy commercial queries8ReplenishmentRecurring supply chain purchases7InformationalTop-of-funnel research5📊 Deterministic Visibility ScoringEkkoScope rejects "black box" metrics in favor of transparent, deterministic scoring algorithms.Visibility Formula:$$ \text{Visibility Score} = \left( \frac{\text{Total Provider Hits}}{\text{Total Provider Probes}} \right) \times 100 $$Probes: Total successful API queries sent to AI providers.Hits: Total distinct instances where the target brand was recommended.Guardrails: Mathematical verification prevents LLM hallucinations from overriding calculated scores (e.g., a "0%" score cannot be described as "Dominating").🛠️ Tech StackBackend: Python 3.11 + FastAPI (Async Architecture).Vector Store: Pinecone (Serverless/Index: ekkobrain).Embeddings: OpenAI text-embedding-3-large.Providers: OpenAI API, Perplexity Sonar API, Google Gemini API.© 2022-2025 AN2B Labs. Architecture references proprietary methodologies.ogle Gemini API.© 2022-2025 AN2B Labs. Architecture references proprietary methodologies.
